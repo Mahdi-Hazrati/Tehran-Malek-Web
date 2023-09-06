@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Vazirmatn-FG-Regular;
+    src: url("../assets/fonts/Vazirmatn-FD-Regular.ttf");
+}
+.app{
+    font-family: Vazirmatn-FG-Regular;
+    font-size: 16px;
+    direction: rtl;
+
+}
