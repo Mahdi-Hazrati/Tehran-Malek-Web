@@ -1,11 +1,20 @@
+import React, { useState, useEffect } from "react"
 import "./app.css"
-function App() {
+import "shiftgrid"
+
+export default function App() {
   return (
-    <div className="app">
-      <h1>تهران مالک - وب اپ</h1>
-      <p>123456789</p>
+    <div className="app container">
+      <header className="row">
+        قسمت نوبار
+      </header>
+      <main className="row">
+        قسمت اصلی
+      </main>
+      <footer className="row">
+        قسمت پابرگ
+      </footer>
     </div>
   );
 }
 
-export default App;
